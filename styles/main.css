@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "Inter var";
   font-style: normal;
@@ -5,6 +9,7 @@
   font-display: block;
   src: url(/fonts/Inter-roman.latin.var.woff2) format("woff2");
 }
+
 @font-face {
   font-family: "Inter var";
   font-style: italic;
@@ -43,6 +48,7 @@ body {
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
 }
+
 b,
 strong,
 h3,
@@ -51,15 +57,17 @@ h5,
 h6 {
   font-variation-settings: "wght" 650;
 }
+
 h1 {
   font-variation-settings: "wght" 850;
 }
+
 h2 {
   font-variation-settings: "wght" 750;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
-  screen and (min-resolution: 1.5dppx) {
+screen and (min-resolution: 1.5dppx) {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

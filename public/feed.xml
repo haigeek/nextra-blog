@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[haigeek blog]]></title>
+        <description><![CDATA[haigeek blog]]></description>
+        <link>https://haigeek.me</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 08 Jul 2024 15:14:00 GMT</lastBuildDate>
+        <atom:link href="https://haigeek.me/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[并发登录下session的处理]]></title>
+            <link>/posts/Concurrent-login-session</link>
+            <guid isPermaLink="true">/posts/Concurrent-login-session</guid>
+            <category><![CDATA[session]]></category>
+            <category><![CDATA[spring]]></category>
+            <pubDate>Wed, 16 Oct 2019 23:26:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jenkins部署项目到远程windows]]></title>
+            <link>/posts/Jenkins-deploy-remote-windows-server</link>
+            <guid isPermaLink="true">/posts/Jenkins-deploy-remote-windows-server</guid>
+            <category><![CDATA[jenkins]]></category>
+            <pubDate>Tue, 01 Jan 2019 22:54:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一次磁盘误操作恢复记录]]></title>
+            <link>/posts/disk-recovery-experience</link>
+            <guid isPermaLink="true">/posts/disk-recovery-experience</guid>
+            <category><![CDATA[linux]]></category>
+            <category><![CDATA[ops]]></category>
+            <pubDate>Sun, 13 Aug 2023 17:14:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一次Tcp端口耗尽引发的思考]]></title>
+            <link>/posts/Tcp-socker-No-buffer-space-available</link>
+            <guid isPermaLink="true">/posts/Tcp-socker-No-buffer-space-available</guid>
+            <category><![CDATA[Tcp]]></category>
+            <category><![CDATA[Socket]]></category>
+            <pubDate>Wed, 08 May 2019 22:38:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dubbo Rpc 使用随机端口]]></title>
+            <link>/posts/dubbo-random-port</link>
+            <guid isPermaLink="true">/posts/dubbo-random-port</guid>
+            <category><![CDATA[dubbo]]></category>
+            <pubDate>Wed, 01 Apr 2020 23:17:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DubboRpc的ExceptionFilter过滤器]]></title>
+            <link>/posts/dubbo-rpc-filter-exception-handler</link>
+            <guid isPermaLink="true">/posts/dubbo-rpc-filter-exception-handler</guid>
+            <category><![CDATA[dubbo]]></category>
+            <pubDate>Sat, 26 Dec 2020 16:34:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Markdown Examples]]></title>
+            <description><![CDATA[View examples of all possible Markdown options.]]></description>
+            <link>/posts/markdown</link>
+            <guid isPermaLink="true">/posts/markdown</guid>
+            <category><![CDATA[web development]]></category>
+            <dc:creator><![CDATA[You]]></dc:creator>
+            <pubDate>Thu, 18 Mar 2021 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Next.js Pages]]></title>
+            <description><![CDATA[Learn more about Next.js pages.]]></description>
+            <link>/posts/pages</link>
+            <guid isPermaLink="true">/posts/pages</guid>
+            <category><![CDATA[web development]]></category>
+            <dc:creator><![CDATA[You]]></dc:creator>
+            <pubDate>Wed, 17 Mar 2021 16:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
