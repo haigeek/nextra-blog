@@ -8,6 +8,9 @@ const withNextra = require("nextra")({
 const nextConfig = {
   // any configs you need
   output: "export",
+  images: {
+    unoptimized: true
+  },
 };
 
 module.exports = withNextra(nextConfig);
