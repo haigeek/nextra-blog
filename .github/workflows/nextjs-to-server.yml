@@ -105,7 +105,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "./deploy.tar.gz"
-          target: "/usr/local/nextra-blog"
+          target: "/opt/app/nginx/html"
       - name: Extract deployment package on server
         uses: appleboy/ssh-action@v0.1.6
         with:
@@ -113,8 +113,8 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            tar -xzvf /usr/local/nextra-blog/deploy.tar.gz -C /var/www/html/
-            mv /var/www/html/out /var/www/html/nextra-blog
-            rm /usr/local/nextra-blog/deploy.tar.gz
+            tar -xzvf /opt/app/nginx/html/deploy.tar.gz -C /opt/app/nginx/html
+            mv /opt/app/nginx/html/out /opt/app/nginx/html/nextra-blog
+            rm /opt/app/nginx/html/deploy.tar.gz
             # Restart server or services if needed
-            nginx -s reload
+            docker restart nginx
