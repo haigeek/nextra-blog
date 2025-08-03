@@ -79,7 +79,7 @@ jobs:
       - name: Prepare Deployment Package
         run: tar -czvf deploy.tar.gz ./out
       - name: Upload Deployment Package
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: deploy-package
           path: deploy.tar.gz
@@ -92,7 +92,7 @@ jobs:
       # - name: Checkout
       #   uses: actions/checkout@v3
       - name: Download Deployment Package
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: deploy-package
           path: ./
