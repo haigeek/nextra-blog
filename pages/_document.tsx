@@ -25,6 +25,8 @@ export default function Document() {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="a8d4df23-76ba-41b3-a811-125750474175"></script>
+
       </Head>
       <body>
         <Main />
