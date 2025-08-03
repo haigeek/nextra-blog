@@ -116,6 +116,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             tar -xzvf /opt/app/nginx/html/deploy.tar.gz -C /opt/app/nginx/html
+            mv /opt/app/nginx/html/nextra-blog /opt/app/nginx/html/nextra-blog-bak
             mv /opt/app/nginx/html/out /opt/app/nginx/html/nextra-blog
             rm /opt/app/nginx/html/deploy.tar.gz
             # Restart server or services if needed
